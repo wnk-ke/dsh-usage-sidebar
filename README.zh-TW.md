@@ -4,12 +4,6 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md)
 
-## 截圖
-
-![側邊欄晶片](docs/screenshots/sidebar.png)
-
-![彈層：近 7 天與語言切換](docs/screenshots/popover.png)
-
 ## 功能
 
 - **側邊欄晶片**：左側餘額（≥￥5 綠色，<￥5 紅色），右側今日用量：`Today: 119.72M @ ￥6.44`

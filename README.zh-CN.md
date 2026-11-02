@@ -4,12 +4,6 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md)
 
-## 截图
-
-![侧边栏芯片](docs/screenshots/sidebar.png)
-
-![弹层：近 7 天与语言切换](docs/screenshots/popover.png)
-
 ## 功能
 
 - **侧边栏芯片**：左侧余额（≥￥5 绿色，<￥5 红色），右侧今日用量：`Today: 119.72M @ ￥6.44`
