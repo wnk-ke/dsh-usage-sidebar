@@ -6,9 +6,9 @@
 
 ## 截图
 
-![侧边栏：余额与今日用量](docs/screenshots/sidebar.png)
-
-![弹层：近 7 天、自动刷新与语言切换](docs/screenshots/popover.png)
+| 侧边栏 | 弹层 |
+| --- | --- |
+| ![侧边栏：余额与今日用量](docs/screenshots/sidebar.png) | ![弹层：近 7 天、自动刷新与语言切换](docs/screenshots/popover.png) |
 
 ## 功能
 

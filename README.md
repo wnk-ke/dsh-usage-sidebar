@@ -6,9 +6,9 @@ DeepSeek balance, tokens and cost in the DSH (DeepSeek Harness) sidebar.
 
 ## Screenshots
 
-![Sidebar: balance and today's usage](docs/screenshots/sidebar.png)
-
-![Popover: last 7 days, auto refresh and language switch](docs/screenshots/popover.png)
+| Sidebar | Popover |
+| --- | --- |
+| ![Sidebar: balance and today's usage](docs/screenshots/sidebar.png) | ![Popover: last 7 days, auto refresh and language switch](docs/screenshots/popover.png) |
 
 ## Features
 

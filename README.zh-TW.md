@@ -6,9 +6,9 @@
 
 ## 截圖
 
-![側邊欄：餘額與今日用量](docs/screenshots/sidebar.png)
-
-![彈層：近 7 天、自動重新整理與語言切換](docs/screenshots/popover.png)
+| 側邊欄 | 彈層 |
+| --- | --- |
+| ![側邊欄：餘額與今日用量](docs/screenshots/sidebar.png) | ![彈層：近 7 天、自動重新整理與語言切換](docs/screenshots/popover.png) |
 
 ## 功能
 

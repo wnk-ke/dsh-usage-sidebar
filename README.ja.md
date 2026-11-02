@@ -6,9 +6,9 @@ DSH（DeepSeek Harness）のサイドバーに DeepSeek の残高・token・料�
 
 ## スクリーンショット
 
-![サイドバー：残高と今日の使用量](docs/screenshots/sidebar.png)
-
-![ポップオーバー：直近7日・自動更新・言語切替](docs/screenshots/popover.png)
+| サイドバー | ポップオーバー |
+| --- | --- |
+| ![サイドバー：残高と今日の使用量](docs/screenshots/sidebar.png) | ![ポップオーバー：直近7日・自動更新・言語切替](docs/screenshots/popover.png) |
 
 ## 機能
 
