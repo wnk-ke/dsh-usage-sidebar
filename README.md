@@ -1,8 +1,5 @@
 # dsh-usage-sidebar
 
-[![npm](https://img.shields.io/npm/v/dsh-usage-sidebar.svg)](https://www.npmjs.com/package/dsh-usage-sidebar)
-[![license](https://img.shields.io/npm/l/dsh-usage-sidebar.svg)](https://github.com/wnk-ke/dsh-usage-sidebar/blob/main/LICENSE)
-
 仓库：<https://github.com/wnk-ke/dsh-usage-sidebar>
 
 DeepSeek 余额与用量，常驻在 DeepSeek Harness（DSH）桌面端的**左侧导航栏底部**。
@@ -30,16 +27,14 @@ DeepSeek 余额与用量，常驻在 DeepSeek Harness（DSH）桌面端的**左�
 
 ## 安装
 
-### 从 npm（推荐）
+### 从 GitHub（当前发布方式）
 
 ```powershell
-dsh plugin --profile <profile> add dsh-usage-sidebar
-```
+# 固定 commit 安装（与插件市场索引一致）
+dsh plugin --profile <profile> add "git+https://github.com/wnk-ke/dsh-usage-sidebar.git#79a6807bc63aad49df744a3f294237008843086a"
 
-或从 GitHub 安装：
-
-```powershell
-dsh plugin --profile <profile> add github:wnk-ke/dsh-usage-sidebar
+# 跟随 main 最新（开发时用）
+dsh plugin --profile <profile> add git+https://github.com/wnk-ke/dsh-usage-sidebar.git
 ```
 
 桌面端请在 **设置 → 插件 → 添加插件** 中填入包名。
