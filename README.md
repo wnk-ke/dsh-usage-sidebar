@@ -1,5 +1,10 @@
 # dsh-usage-sidebar
 
+[![npm](https://img.shields.io/npm/v/dsh-usage-sidebar.svg)](https://www.npmjs.com/package/dsh-usage-sidebar)
+[![license](https://img.shields.io/npm/l/dsh-usage-sidebar.svg)](https://github.com/wnk-ke/dsh-usage-sidebar/blob/main/LICENSE)
+
+仓库：<https://github.com/wnk-ke/dsh-usage-sidebar>
+
 DeepSeek 余额与用量，常驻在 DeepSeek Harness（DSH）桌面端的**左侧导航栏底部**。
 
 ## 功能
@@ -29,6 +34,12 @@ DeepSeek 余额与用量，常驻在 DeepSeek Harness（DSH）桌面端的**左�
 
 ```powershell
 dsh plugin --profile <profile> add dsh-usage-sidebar
+```
+
+或从 GitHub 安装：
+
+```powershell
+dsh plugin --profile <profile> add github:wnk-ke/dsh-usage-sidebar
 ```
 
 桌面端请在 **设置 → 插件 → 添加插件** 中填入包名。

@@ -1,0 +1,100 @@
+{
+  "format": 1,
+  "title": {
+    "en": "dsh-usage-sidebar index",
+    "zh": "dsh-usage-sidebar 索引"
+  },
+  "description": {
+    "en": "Index containing the dsh-usage-sidebar plugin."
+  },
+  "metadata": {
+    "categories": {
+      "usage": {
+        "title": {
+          "en": "Usage & billing",
+          "zh": "用量与计费"
+        }
+      }
+    },
+    "labels": {
+      "official-api": {
+        "title": {
+          "en": "DeepSeek API",
+          "zh": "DeepSeek 官方 API"
+        }
+      },
+      "local-data": {
+        "title": {
+          "en": "Local data",
+          "zh": "本地数据"
+        }
+      }
+    },
+    "sortKeys": {
+      "stars": {
+        "title": {
+          "en": "Stars",
+          "zh": "星标"
+        },
+        "order": "desc"
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-usage-sidebar",
+      "title": {
+        "en": "DeepSeek Balance & Usage",
+        "zh": "DeepSeek 余额与用量",
+        "zh-Hant": "DeepSeek 餘額與用量",
+        "ja": "DeepSeek 残高と使用量",
+        "fr": "Solde et utilisation DeepSeek",
+        "ru": "Баланс и использование DeepSeek",
+        "de": "DeepSeek-Guthaben und -Nutzung",
+        "es": "Saldo y uso de DeepSeek"
+      },
+      "description": {
+        "en": "Balance, tokens and cost in the DSH sidebar. Official usage when signed in; local session-log tokens otherwise. 8 languages.",
+        "zh": "侧边栏常驻 DeepSeek 余额、token 与花费；登录后用官方数据，未登录只统计本机日志。支持 8 种语言。",
+        "zh-Hant": "側邊欄常駐 DeepSeek 餘額、token 與花費；登入後用官方資料，未登入只統計本機日誌。支援 8 種語言。",
+        "ja": "サイドバーに DeepSeek の残高・token・料金を表示。ログイン時は公式データ、未ログイン時はローカルログのみ。8 言語対応。",
+        "fr": "Solde, tokens et coût dans la barre latérale DSH. Données officielles après connexion, journaux locaux sinon. 8 langues.",
+        "ru": "Баланс, token и стоимость в боковой панели DSH. Официальные данные после входа, локальные журналы без входа. 8 языков.",
+        "de": "Guthaben, Token und Kosten in der DSH-Seitenleiste. Offizielle Daten nach Anmeldung, sonst lokale Protokolle. 8 Sprachen.",
+        "es": "Saldo, token y coste en la barra lateral de DSH. Datos oficiales con sesión, registros locales sin ella. 8 idiomas."
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+CiAgPHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyOCIgZmlsbD0iIzFGMjkzNyIvPgogIDxyZWN0IHg9IjI0IiB5PSI0MCIgd2lkdGg9IjgwIiBoZWlnaHQ9IjUyIiByeD0iMTAiIGZpbGw9IiMxMEI5ODEiLz4KICA8cmVjdCB4PSIyNCIgeT0iNDAiIHdpZHRoPSI4MCIgaGVpZ2h0PSIxNCIgcng9IjciIGZpbGw9IiMwNTk2NjkiLz4KICA8Y2lyY2xlIGN4PSI4OCIgY3k9IjcwIiByPSI3IiBmaWxsPSIjRUNGREY1Ii8+CiAgPHRleHQgeD0iNTIiIHk9IjgyIiBmb250LWZhbWlseT0iU2Vnb2UgVUksIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjI2IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjMDY0RTNCIj7CpTwvdGV4dD4KPC9zdmc+Cg==",
+      "author": "dsh-usage-sidebar contributors",
+      "homepage": "https://github.com/wnk-ke/dsh-usage-sidebar",
+      "repository": {
+        "url": "https://github.com/wnk-ke/dsh-usage-sidebar"
+      },
+      "metadata": {
+        "category": "usage",
+        "labels": [
+          "official-api",
+          "local-data"
+        ],
+        "keywords": [
+          "deepseek",
+          "balance",
+          "usage",
+          "sidebar",
+          "i18n"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.4.2",
+          "publishTimestamp": 1793629520,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.5 <0.4.0"
+          }
+        }
+      ]
+    }
+  ]
+}
