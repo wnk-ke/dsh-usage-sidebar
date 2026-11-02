@@ -4,6 +4,12 @@ DSH（DeepSeek Harness）のサイドバーに DeepSeek の残高・token・料�
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md)
 
+## スクリーンショット
+
+![サイドバー：残高と今日の使用量](docs/screenshots/sidebar.png)
+
+![ポップオーバー：直近7日・自動更新・言語切替](docs/screenshots/popover.png)
+
 ## 機能
 
 - **サイドバーのチップ**：左に残高（￥5 以上は緑、未満は赤）、右に今日の使用量：`Today: 119.72M @ ￥6.44`

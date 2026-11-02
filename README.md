@@ -4,6 +4,12 @@ DeepSeek balance, tokens and cost in the DSH (DeepSeek Harness) sidebar.
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md)
 
+## Screenshots
+
+![Sidebar: balance and today's usage](docs/screenshots/sidebar.png)
+
+![Popover: last 7 days, auto refresh and language switch](docs/screenshots/popover.png)
+
 ## Features
 
 - **Sidebar chip**: balance on the left (green ≥ ¥5, red below), today's usage on the right: `Today: 119.72M @ ¥6.44`

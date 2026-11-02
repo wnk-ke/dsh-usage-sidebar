@@ -1,1 +1,1 @@
-把 sidebar.png 与 popover.png 放在这里。
+sidebar.png 与 popover.png 为 README 使用的截图。
