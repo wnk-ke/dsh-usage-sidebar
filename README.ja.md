@@ -33,7 +33,7 @@ DSH（DeepSeek Harness）のサイドバーに DeepSeek の残高・token・料�
 
 ```powershell
 # pinned commit (what the market index installs)
-dsh plugin --profile <profile> add "git+https://github.com/wnk-ke/dsh-usage-sidebar.git#79a6807bc63aad49df744a3f294237008843086a"
+dsh plugin --profile <profile> add "git+https://github.com/wnk-ke/dsh-usage-sidebar.git#70fe100190762eddc5fa91bd2b8336a126354550"
 
 # track main (development)
 dsh plugin --profile <profile> add git+https://github.com/wnk-ke/dsh-usage-sidebar.git
