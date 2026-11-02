@@ -1,0 +1,5 @@
+# dsh-usage-sidebar — 侧边栏底部的 DeepSeek 余额与每日用量。
+# Host half 注册 /api/dsh-usage-sidebar/* 路由；浏览器端通过 dsh.client 扫描自动加载。
+- insert:
+    - id: dsh-usage-sidebar
+      name: dsh-usage-sidebar

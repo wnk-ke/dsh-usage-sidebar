@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="28" fill="#1F2937"/>
+  <rect x="24" y="40" width="80" height="52" rx="10" fill="#10B981"/>
+  <rect x="24" y="40" width="80" height="14" rx="7" fill="#059669"/>
+  <circle cx="88" cy="70" r="7" fill="#ECFDF5"/>
+  <text x="52" y="82" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#064E3B">¥</text>
+</svg>

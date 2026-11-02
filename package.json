@@ -1,0 +1,57 @@
+{
+  "name": "dsh-usage-sidebar",
+  "version": "0.4.2",
+  "description": "DeepSeek balance and usage in the DSH sidebar: official tokens and cost when signed in, local session-log tokens otherwise. 8 UI languages, configurable refresh.",
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "assets"
+  ],
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dependencies": {},
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-cordis-client-runner",
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-ui-layout"
+      ]
+    }
+  },
+  "keywords": [
+    "dsh",
+    "deepseek",
+    "deepseek-harness",
+    "plugin",
+    "balance",
+    "usage",
+    "spend",
+    "sidebar",
+    "i18n"
+  ],
+  "license": "MIT",
+  "engines": {
+    "dsh": ">=0.2.1-rc.5 <0.4.0"
+  },
+  "author": "wnk-ke",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wnk-ke/dsh-usage-sidebar.git"
+  },
+  "homepage": "https://github.com/wnk-ke/dsh-usage-sidebar#readme",
+  "bugs": {
+    "url": "https://github.com/wnk-ke/dsh-usage-sidebar/issues"
+  }
+}
