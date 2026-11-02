@@ -4,6 +4,14 @@
 
 DeepSeek 余额与用量，常驻在 DeepSeek Harness（DSH）桌面端的**左侧导航栏底部**。
 
+## 截图
+
+![侧边栏余额与今日用量](docs/screenshots/sidebar.png)
+
+![近 7 天用量与语言切换](docs/screenshots/popover.png)
+
+> 截图放在 `docs/screenshots/`，建议深色/浅色各一张，余额等敏感数字打码。
+
 ## 功能
 
 - 侧边栏底部芯片：当前余额 + 今日 token（登录后额外显示今日花费），每 60 秒刷新
