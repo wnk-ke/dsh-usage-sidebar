@@ -8,13 +8,24 @@ const pkgPath = dir + 'package.json'
 const indexPath = dir + 'market-index.json'
 const checkOnly = process.argv.includes('--check')
 
+function headCommit() {
+  try {
+    return execFileSync('git', ['rev-parse', 'HEAD'], { cwd: dir, encoding: 'utf8' }).trim()
+  } catch (e) {
+    // 沙箱/受限环境无法 spawn 时，直接读 .git 引用。
+    const head = fs.readFileSync(dir + '.git/HEAD', 'utf8').trim()
+    if (head.startsWith('ref: ')) return fs.readFileSync(dir + '.git/' + head.slice(5), 'utf8').trim()
+    return head
+  }
+}
+
 const pkg = JSON.parse(fs.readFileSync(pkgPath, 'utf8'))
 const index = JSON.parse(fs.readFileSync(indexPath, 'utf8'))
 const plugin = index.plugins[0]
 const entry = plugin.versions[0]
 
 if (!checkOnly) {
-  const commit = execFileSync('git', ['rev-parse', 'HEAD'], { cwd: dir, encoding: 'utf8' }).trim()
+  const commit = headCommit()
   entry.version = pkg.version
   entry.publishTimestamp = Math.floor(Date.now() / 1000)
   entry.source = { type: 'git', url: 'https://github.com/wnk-ke/dsh-usage-sidebar', commit }

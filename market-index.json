@@ -86,11 +86,11 @@
       "versions": [
         {
           "version": "0.4.2",
-          "publishTimestamp": 1793631596,
+          "publishTimestamp": 1793632909,
           "source": {
             "type": "git",
             "url": "https://github.com/wnk-ke/dsh-usage-sidebar",
-            "commit": "79a6807bc63aad49df744a3f294237008843086a"
+            "commit": "70fe100190762eddc5fa91bd2b8336a126354550"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.5 <0.4.0"
